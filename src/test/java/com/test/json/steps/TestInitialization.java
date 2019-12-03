@@ -6,7 +6,7 @@ import cucumber.api.java.Before;
 public final class TestInitialization {
 
     @Before
-    public void TestSetup(){
+    public void TestSetup() {
         RestAssuredExtension restAssuredExtension = new RestAssuredExtension();
     }
 }

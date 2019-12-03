@@ -5,13 +5,12 @@ import com.test.json.datamodels.Post;
 
 import java.util.Random;
 
-/**
- * TODO: Javadoc
- */
+
 public final class TestUtil {
 
     /**
      * Get Random number between given range
+     *
      * @param min
      * @param max
      * @return
@@ -28,11 +27,12 @@ public final class TestUtil {
 
     /**
      * Return post object generated using faker random data
+     *
      * @return
      */
     public static Post getPost() {
 
         Faker faker = new Faker();
-        return new Post("11",faker.idNumber().toString(),faker.book().title(),faker.lorem().fixedString(10));
+        return new Post("11", faker.idNumber().toString(), faker.book().title(), faker.lorem().fixedString(10));
     }
 }

@@ -15,7 +15,7 @@ User can run the tests either from Command Line or using InelliJ
 To Run tests using Maven --
 run from Project Root Directory
 
-  #### in Windows 10:  mvn clean test -Dtest="test"   
+  #### in Windows 10:  mvn clean test -DtestEnv="test"   
   
  
 
